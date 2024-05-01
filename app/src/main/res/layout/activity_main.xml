@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="6"
+        android:ellipsize="end"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/lorem/random"
+        android:textSize="20sp"
+        android:text="@string/testText" />
+    <Button
+        android:id="@+id/bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testText"
+        android:layout_gravity="center|bottom"/>
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/sw"
+        android:src="@drawable/add" />
+
+    <ImageButton
+        android:id="@+id/mines"
+        android:layout_width="75dp"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom" />
+</FrameLayout>
+
+
+
+
